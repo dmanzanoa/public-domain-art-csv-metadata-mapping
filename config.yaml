@@ -1,0 +1,38 @@
+project:
+  target_images: 50
+
+categories:
+  abstract: 8
+  botanical: 8
+  landscape: 9
+  photography: 8
+  australiana: 8
+  fashion: 9
+
+image_quality:
+  min_long_edge: 2500
+  min_megapixels: 4.0
+  preferred_long_edge: 3000
+
+downloader:
+  max_workers: 5
+  requests_per_second: 2
+  max_retries: 5
+  timeout_seconds: 30
+
+output:
+  directory: "./output"
+
+shopify:
+  vendor: "Public Domain Art"
+  product_type: "Art Print"
+  sizes:
+    - A4
+    - A3
+    - A2
+    - A1
+  prices:
+    A4:
+    A3:
+    A2:
+    A1:

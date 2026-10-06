@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-10-06T05:22:26.052453+00:00",
+  "status": "passed",
+  "metadata_records": 50,
+  "image_files": 50,
+  "shopify_variant_rows": 200,
+  "category_counts": {
+    "abstract": 8,
+    "australiana": 8,
+    "botanical": 8,
+    "fashion": 9,
+    "landscape": 9,
+    "photography": 8
+  },
+  "expected_category_counts": {
+    "abstract": 8,
+    "botanical": 8,
+    "landscape": 9,
+    "photography": 8,
+    "australiana": 8,
+    "fashion": 9
+  },
+  "duplicate_source_ids": 0,
+  "duplicate_filenames": 0,
+  "duplicate_hashes": 0,
+  "validation_errors": [],
+  "notes": [
+    "Shopify Image Src is intentionally blank until hosted image URLs are available.",
+    "All images were downloaded through The Metropolitan Museum of Art official Collection API image URLs."
+  ]
+}

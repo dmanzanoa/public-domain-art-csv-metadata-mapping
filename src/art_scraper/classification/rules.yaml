@@ -1,0 +1,111 @@
+categories:
+  botanical:
+    threshold: 0.55
+    terms:
+      title:
+        flower: 0.35
+        flowers: 0.35
+        plant: 0.35
+        plants: 0.35
+        botanical: 0.45
+        flora: 0.4
+        garden: 0.3
+        rose: 0.35
+        orchid: 0.4
+        tree: 0.25
+      tags:
+        flowers: 0.45
+        plants: 0.45
+        trees: 0.35
+        gardens: 0.35
+      classification:
+        botanical: 0.45
+  landscape:
+    threshold: 0.55
+    terms:
+      title:
+        landscape: 0.45
+        mountain: 0.35
+        river: 0.3
+        valley: 0.35
+        forest: 0.35
+        coast: 0.3
+        countryside: 0.35
+        lake: 0.25
+      tags:
+        landscapes: 0.5
+        mountains: 0.4
+        rivers: 0.35
+        forests: 0.35
+      classification:
+        landscapes: 0.5
+  photography:
+    threshold: 0.65
+    terms:
+      medium:
+        photograph: 0.65
+        gelatin silver print: 0.65
+        albumen silver print: 0.65
+        daguerreotype: 0.7
+        photogravure: 0.55
+      classification:
+        photographs: 0.8
+        photograph: 0.8
+      object_type:
+        photograph: 0.75
+  australiana:
+    threshold: 0.7
+    terms:
+      title:
+        australia: 0.9
+        australian: 0.9
+        sydney: 0.9
+        melbourne: 0.9
+        tasmania: 0.9
+        queensland: 0.9
+      tags:
+        australia: 0.7
+        australian: 0.7
+        sydney: 0.65
+        melbourne: 0.65
+      department:
+        australian: 0.7
+      artist:
+        australian: 0.45
+  fashion:
+    threshold: 0.55
+    terms:
+      title:
+        dress: 0.35
+        fashion: 0.45
+        garment: 0.4
+        costume: 0.4
+        textile: 0.25
+        clothing: 0.4
+        hat: 0.3
+        robe: 0.3
+      medium:
+        textile: 0.35
+        silk: 0.25
+        wool: 0.2
+      classification:
+        costumes: 0.45
+        textiles: 0.35
+      object_type:
+        dress: 0.55
+        costume: 0.55
+        hat: 0.45
+  abstract:
+    threshold: 0.55
+    terms:
+      title:
+        abstract: 0.65
+        composition: 0.25
+        geometric: 0.35
+        study: 0.15
+      tags:
+        abstraction: 0.55
+        abstract: 0.55
+        geometry: 0.35
+      classification:
+        abstract: 0.55
